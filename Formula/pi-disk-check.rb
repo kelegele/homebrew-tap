@@ -13,7 +13,7 @@ class PiDiskCheck < Formula
     run [opt_bin/"pi-disk-check", "run"]
     run_type :cron
     cron "0 10 * * *"
-    environment_vars PI_DISK_CHECK_DATA: "#{HOMEBREW_PREFIX}/var/pi-disk-check"
+    environment_variables PI_DISK_CHECK_DATA: "#{HOMEBREW_PREFIX}/var/pi-disk-check"
   end
 
   def caveats
