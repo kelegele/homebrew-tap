@@ -1,9 +1,9 @@
 class PiDiskCheck < Formula
   desc "launchd disk sentinel: tiered cleanup reports when volume usage exceeds threshold, analyze-only"
   homepage "https://github.com/kelegele/pi-disk-check"
-  url "https://github.com/kelegele/pi-disk-check/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "64f399b3c98f9653b548d0b1ac4182b8a2124678101b7890173e4601bb328e86"
-  version "0.1.3"
+  url "https://github.com/kelegele/pi-disk-check/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "9112a091fe16a7a4b23a0d06fec774fca9db745dba589aa3fdc60bf19ae4e65d"
+  version "0.1.4"
 
   def install
     bin.install "bin/pi-disk-check.sh" => "pi-disk-check"
